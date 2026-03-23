@@ -1,0 +1,16 @@
+/* Recommended modern Tailwind v4 + animations setup */
+
+@import "tailwindcss";
+
+/* If you need to disable auto source scanning (most projects DON'T need this) */
+/* @import "tailwindcss" source(none); */
+
+/* Only add this if Tailwind is not detecting your classes properly */
+/* Adjust the path to match your src/ folder location relative to this CSS file */
+@source "../**/*.{js,ts,jsx,tsx}";
+
+/* Animations – pick ONE of the lines below depending on your setup */
+@import "tw-animate-css";           /* ← most common & correct for recent shadcn/ui */
+
+/* Alternative if the above fails (older / different setups) */
+/* @import "tw-animate-css/dist/tw-animate.css"; */
